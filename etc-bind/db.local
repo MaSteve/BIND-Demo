@@ -1,0 +1,14 @@
+$TTL    604800
+@         IN      SOA     ns.local. admin.local. (
+                    2023122900 ; Serial
+                    604800     ; Refresh
+                    86400      ; Retry
+                    2419200    ; Expire
+                    604800 )   ; Negative Cache TTL
+
+@         IN      NS      ns.local.
+
+ns        IN      A       192.168.0.4
+server1   IN      A       192.168.0.2
+server2   IN      A       192.168.0.3
+
